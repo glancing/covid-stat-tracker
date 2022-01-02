@@ -1,7 +1,7 @@
 # Covid Stat Tracker
 
 a simple website to track Covid-19 stats for different states
-made for a project
+made for a project last year
 
 ## How To Run
 
