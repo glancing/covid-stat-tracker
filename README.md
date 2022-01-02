@@ -1,5 +1,9 @@
-# Covid Stat Tracker made for project
+# Covid Stat Tracker
 
-## Track Covid-19 stats for different states
+a simple website to track Covid-19 stats for different states
+made for a project last year
 
-To run do `yarn start`
+## How To Run
+
+1. `yarn` to install modules
+2. `yarn start` to start local website
