@@ -1,0 +1,149 @@
+
+.App {
+    height: 100vh;
+    background: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;    
+    overflow-x: hidden;
+}
+
+
+/* Pages */
+
+.dashboard-page {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    margin-left: 40px;
+}
+
+.dataSvg {
+    margin-left:auto; 
+    margin-right:auto; 
+    height: 50%;
+    display:block;
+}
+
+.wave-wrapper {
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+}
+
+.wave-wrapper svg{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 100%;
+}
+
+/* Total */
+
+.total-page {
+    margin-left: 20px;
+}
+
+.total-page-chart {
+    margin-left: 40px;
+}
+
+
+/* States */
+
+.state-page {
+    height: 100%;
+    width: 80%;
+}
+
+.state-container {
+    position: fixed;
+    overflow-y: scroll;
+    top: 120px;
+    left: 280px;
+    width: 70%;
+    max-height: 560px;
+}
+
+.state-row {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.state-entry {
+    width: 289px;
+    margin: 8px;
+    height: 245px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: #F2F2F2;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+
+.state-entry:hover {
+    box-shadow: 0px 12px 25px 4px rgba(0, 0, 0, 0.04);
+    transition: 0.1s ease-in;
+}
+
+.indiv-state-page {
+    margin-left: 20px;
+}
+
+.state-graph {
+    margin-left: 40px;
+}
+
+.state-rows-title {
+    margin-left: 40px;
+}
+
+/* Help Page */
+
+.help-page {
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.faq {
+    margin-left: 40px;
+}
+
+/* Nav bar */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 4rem;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    color: #A0A0A0;
+}
+
+
+.nav-bar {
+    width: 120px;
+    height: 100%;
+    background: #FF8787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
